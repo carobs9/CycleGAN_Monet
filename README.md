@@ -171,7 +171,7 @@ Throughout the epochs, we test the results (turning a real image into a Monet pa
 
 - Test on random image outside the testing set:
 
-![Alt text](/readme_images/final_model/ex_random_img.png?raw=true "Optional Title")
+![Alt text](/readme_images/final_model/ex_random_img2.png?raw=true "Optional Title")
 
 - Generating a real image from a Monet painting:
 
