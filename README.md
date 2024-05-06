@@ -162,37 +162,37 @@ Throughout the epochs, we test the results (turning a real image into a Monet pa
 
 - Losses curve for 10 epochs:
 
-![Alt text](/readme_images/losses_10_epochs.png?raw=true "Optional Title")
+![Alt text](/readme_images/CycleGAN_Monet/readme_images/model_2/losses_10_epochs.png.png?raw=true "Optional Title")
 
 - Results of the model after 1 epoch:
 
-![Alt text](/readme_images/test_image_epoch1.png?raw=true "Optional Title")
+![Alt text](/readme_images/CycleGAN_Monet/readme_images/model_2/test_image_epoch1.png?raw=true "Optional Title")
 
 - Result of the model after 10 epochs
 
-![Alt text](/readme_images/test_image_epoch10.png?raw=true "Optional Title")
+![Alt text](/readme_images/CycleGAN_Monet/readme_images/model_2/test_image_epoch10.png?raw=true "Optional Title")
 
 - Test on random image outside the testing set:
 
-![Alt text](/readme_images/test_on_random_image.png?raw=true "Optional Title")
+![Alt text](/readme_images/CycleGAN_Monet/readme_images/model_2/test_on_random_image.png?raw=true "Optional Title")
 
 ### Model 3: 15 epochs with augmented data and a 0.006 learning rate
 
 - Losses curve for 15 epochs:
 
-![Alt text](/readme_images/losses.png?raw=true "Optional Title")
+![Alt text](/readme_images/CycleGAN_Monet/readme_images/model_3/losses.png?raw=true "Optional Title")
 
 - Results of the model after 1 epoch:
 
-![Alt text](/readme_images/epoch1.png?raw=true "Optional Title")
+![Alt text](/readme_images/CycleGAN_Monet/readme_images/model_3/epoch1.png?raw=true "Optional Title")
 
 - Results of the model after 15 epochs:
 
-![Alt text](/readme_images/epoch_15.png?raw=true "Optional Title")
+![Alt text](/readme_images/CycleGAN_Monet/readme_images/model_3/epoch_15.png?raw=true "Optional Title")
 
 - Generating a real image from a Monet painting:
 
-![Alt text](/readme_images/monet_to_image_3.png?raw=true "Optional Title")
+![Alt text](/readme_images/CycleGAN_Monet/readme_images/model_3/monet_to_image_3.png?raw=true "Optional Title")
 
 
 ### Results
