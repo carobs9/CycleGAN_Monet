@@ -148,7 +148,11 @@ We also experimented with other parameters like the learning rate and the number
 
 ## Results and Discussion
 
-### Final model: 50 epochs with augmented data and a 0.004 learning rate
+### Final model: 
+
+- 50 epochs 
+- augmented data 
+- 0.004 learning rate
 
 Throughout the epochs, we test the results (turning a real image into a Monet painting) on one sample image. We noticed that the generated image slowly becomes less blurry throughout the epochs.
 
@@ -163,7 +167,11 @@ Throughout the epochs, we test the results (turning a real image into a Monet pa
 
 - Generating a real image from a Monet painting:
 
-### Model 2: 10 epochs with augmented data and a 0.004 learning rate
+### Model 2: 
+
+- 10 epochs
+- augmented data 
+- 0.004 learning rate
 
 - Losses curve for 10 epochs:
 
@@ -179,9 +187,13 @@ Throughout the epochs, we test the results (turning a real image into a Monet pa
 
 - Test on random image outside the testing set:
 
-![Alt text](/readme_images/model_2/test_on_random_image.png?raw=true "Optional Title")
+![Alt text](/readme_images/model_2/test_on_random_images.png?raw=true "Optional Title")
 
-### Model 3: 15 epochs with augmented data and a 0.006 learning rate
+### Model 3: 
+
+- 15 epochs 
+- augmented data 
+- 0.006 learning rate
 
 - Losses curve for 15 epochs:
 
@@ -216,8 +228,3 @@ With more time, we would have liked to:
 - further analyse the results and perform different data augmentation techniques based on color,
 - develop quantitative evaluation metrics to analyze how well the Monet style is captured and applied to new images by our model.
 
-## References
-
-CycleGAN original paper.
-
-Kaggle data.
