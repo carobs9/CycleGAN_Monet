@@ -161,6 +161,9 @@ Throughout the epochs, we test the results (turning a real image into a Monet pa
 
 - Results of the model after 1 epoch:
 
+![Alt text](/readme_images/final_model/epoch_1.png?raw=true "Optional Title")
+
+
 - Result of the model after 50 epochs:
 
 - Test on random image outside the testing set:
