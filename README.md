@@ -18,6 +18,9 @@ The model belongs to the unpaired image-to-image translation domain. As explaine
 
 The identification of higher-level appearance structures makes it great to train CycleGANs to learn the features of Monet paintings and apply them to real images.
 
+![Alt text](readme_images/unpaired_img.png?raw=true "Optional Title")
+
+
 ## Data characteristics
 
 The dataset of choice contains four directories: `monet_tfrec`, `photo_tfrec`, `monet_jpg`, and `photo_jpg`. The `monet_tfrec` and `monet_jpg` directories contain the same painting images, and the `photo_tfrec` and `photo_jpg` directories contain the same photos.
@@ -75,6 +78,8 @@ Similarly, we can summarize the generator and discriminator models from GAN 2 as
     - Cycle consistency loss
 
 So far with this architecture, the models are sufficient for generating plausible images in the target domain but are not translations of the input image. This is when the CycleGAN model differs from the Pix2Pix model:  Pix2Pix uses a combination of adversarial loss and L1 loss between the generated and target images, while CycleGAN incorporates cycle-consistency loss in addition to adversarial loss.
+
+![Alt text](readme_images/cycleGANarch.png?raw=true "Optional Title")
 
 ### Losses
 
