@@ -109,7 +109,7 @@ We initially trained the model for 10 epochs, with a batch size of 1, learning r
 
 Style is very difficult to define and hence to measure. Measuring how well style is captured by the model was a challenging tasks, and despite being plenty of quantitative solutions out there, most of them are inaccurate or just less reliable than the human eye. For this particular task and due to time constrains, we decided to evaluate the results visually, analyzing if the Monet style was present in the output images.
 
-~~We also plot the training losses to help understand if the model is improving or not, and to decide if it is needed to increase the initial learning rate.~~
+We also plot the training losses to help understand if the model is improving or not, and to decide if it is needed to increase the initial learning rate.
 
 ## Key experiments and results
 
@@ -139,35 +139,60 @@ As there was a class imbalance between the Monet training pictures (240) in comp
 
 As a result, we generated an extra 200 Monet training images, resulting in a total of 440 Monet training images.
 
-~~We also experimented with other parameters like the learning rate and number of epochs.~~
-
-The results can be visualized below these lines:
-
-[ Insert simple model pictures here ]
-
-[ Insert data augmentation model pictures here ]
-
-[ Tuned hyperparameters model pictures here ]
-
-In addition, we would have liked to implement a modified ResNet generator used in the original CycleGAN paper, instead of the U-Net generator used here.
+We also experimented with other parameters like the learning rate and the number of epochs. **For our final model, we trained the both the generators and discriminators with a learning rate of 0.004 for 50 epochs.**
 
 ## Results and Discussion
 
-### Model 1: 10 epochs with original data, lr = 0.004
+### Final model: 50 epochs with augmented data and a 0.004 learning rate
 
-[ Summarize results here ]
+Throughout the epochs, we test the results (turning a real image into a Monet painting) on one sample image. We noticed that the generated image slowly becomes less blurry throughout the epochs.
 
-### Model 2: 10 epochs with augmented data, lr = 0.004
+- Losses curve for 50 epochs:
 
-Throughout the epochs, we test the results (turning a real image into a Monet painting) on one sample image. We notice that the generated image slowly becomes less blurry throughout the epochs. 
 
-### Model 3: 10 epochs with augmented data, lr = 0.006
+- Results of the model after 1 epoch:
 
-[ Summarize results here ]
+- Result of the model after 50 epochs:
 
-### Model 4: 20 epochs with augmented data, lr = 0.004
+- Test on random image outside the testing set:
 
-[ Summarize results here ]
+- Generating a real image from a Monet painting:
+
+### Model 2: 10 epochs with augmented data and a 0.004 learning rate
+
+- Losses curve for 10 epochs:
+
+![Alt text](/readme_images/losses_10_epochs.png?raw=true "Optional Title")
+
+- Results of the model after 1 epoch:
+
+![Alt text](/readme_images/test_image_epoch1.png?raw=true "Optional Title")
+
+- Result of the model after 10 epochs
+
+![Alt text](/readme_images/test_image_epoch10.png?raw=true "Optional Title")
+
+- Test on random image outside the testing set:
+
+![Alt text](/readme_images/test_on_random_image.png?raw=true "Optional Title")
+
+### Model 3: 15 epochs with augmented data and a 0.006 learning rate
+
+- Losses curve for 15 epochs:
+
+![Alt text](/readme_images/losses.png?raw=true "Optional Title")
+
+- Results of the model after 1 epoch:
+
+![Alt text](/readme_images/epoch1.png?raw=true "Optional Title")
+
+- Results of the model after 15 epochs:
+
+![Alt text](/readme_images/epoch_15.png?raw=true "Optional Title")
+
+- Generating a real image from a Monet painting:
+
+![Alt text](/readme_images/monet_to_image_3.png?raw=true "Optional Title")
 
 
 ### Results
