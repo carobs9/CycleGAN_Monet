@@ -158,17 +158,24 @@ Throughout the epochs, we test the results (turning a real image into a Monet pa
 
 - Losses curve for 50 epochs:
 
+![Alt text](/readme_images/metrics/epoch_1.png?raw=true "Optional Title")
 
 - Results of the model after 1 epoch:
 
-![Alt text](/readme_images/final_model/epoch_1.png?raw=true "Optional Title")
+![Alt text](/readme_images/final_model/epoch1.png?raw=true "Optional Title")
 
 
 - Result of the model after 50 epochs:
 
+![Alt text](/readme_images/final_model/epoch50.png?raw=true "Optional Title")
+
 - Test on random image outside the testing set:
 
+![Alt text](/readme_images/final_model/ex_random_img.png?raw=true "Optional Title")
+
 - Generating a real image from a Monet painting:
+
+![Alt text](/readme_images/final_model/monet_to_img.png?raw=true "Optional Title")
 
 ### Model 2: 
 
