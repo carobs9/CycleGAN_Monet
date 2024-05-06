@@ -130,7 +130,7 @@ The discriminators use PatchGAN to determine if the input image is a real Monet 
 
 The image below represents the outputs of the Monet discriminator PatchGAN ~~before training (?)~~  . Red tones mean that the discriminator classifies the patch as pertaining to a non-Monet image, while blue tones mean that the discriminator classifies the patch as pertaining to a Monet image:
 
-![Alt text](/readme_images/cyclegan3.png?raw=true "Optional Title")
+![Alt text](/readme_images/patchGAN_explanation.png?raw=true "Optional Title")
 
 ### Data Augmentation
 
@@ -216,7 +216,7 @@ Throughout the epochs, we test the results (turning a real image into a Monet pa
 
 Overall, we noticed that the model performs slightly better with images of nature. This might happen because the training data contains plenty of nature images, whereas it does not contain many images of humans, for example. 
 
-Analyzing some of the PatchGAN patch by patch classifications, we also notice that the plain sky is also hard to classify for the discriminator as either a Monet or a real image patch [ INSERT IMAGES ]
+Analyzing some of the PatchGAN patch by patch classifications, we also notice that the plain sky is also hard to classify for the discriminator as either a Monet or a real image patch.
 
 We found it quite challenging to understand the architecture as it is quite complex, as well as to train the model, which requires plenty of time and resources (hence, we used the U-Cloud Cluster for training). Despite all these challenges, we were satisfied with the initial results of our models. CycleGANs are very unstable models that can often have issues converging and not provide any feasible results
 
