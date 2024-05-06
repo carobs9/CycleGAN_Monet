@@ -158,7 +158,7 @@ Throughout the epochs, we test the results (turning a real image into a Monet pa
 
 - Losses curve for 50 epochs:
 
-![Alt text](/readme_images/metrics/epoch_1.png?raw=true "Optional Title")
+![Alt text](/readme_images/metrics/metrics.png?raw=true "Optional Title")
 
 - Results of the model after 1 epoch:
 
